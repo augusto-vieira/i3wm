@@ -73,10 +73,11 @@ Pacotes do Debian.
 ### Instalação:
 ```console
 sudo apt install $(< lista.txt)
-# Segundo método
-cat lista.txt | sudo apt install
 ```
 ` $(< lista.txt)`: expansão do shell, equivalente a um `cat` puramente pelo Shell.
+```console
+cat lista.txt | sudo apt install
+```
 
 
 Simular uma instalação no Shell:

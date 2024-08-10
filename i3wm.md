@@ -7,9 +7,7 @@ vim .config/i3/config
 ls .config/i3/
 ```
 - **Saída:**
-    ```console
-    dconf/ gtk-2.0/ gtk-3.0 htop/ Mousepad/ nitrogen/ xfce4/
-    ```
+    >dconf/ gtk-2.0/ gtk-3.0 htop/ Mousepad/ nitrogen/ xfce4/
 
 **Sair do i3:**
 > SUPER + shift + e 
