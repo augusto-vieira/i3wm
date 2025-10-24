@@ -74,7 +74,9 @@ Pacotes do Debian.
 ```console
 sudo apt install $(< lista.txt)
 ```
+` $(comando)`: substituição de comando
 ` $(< lista.txt)`: expansão do shell, equivalente a um `cat` puramente pelo Shell.
+
 ```console
 cat lista.txt | sudo apt install
 ```
